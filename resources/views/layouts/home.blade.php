@@ -26,7 +26,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" id="top">
             <div class="container">
                 <a class="navbar-brand logo" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -44,43 +44,24 @@
                             <li><a href="#services">Services</a> </li>
                             <li><a href="#team">Team</a> </li>
                            <li class="">
-			<a href="#" class="dropdown-toggle">
-				<i class="menu-icon fa fa-user"></i>
-				<span class="menu-text">
-					Product
-				</span>
 
-				<b class="arrow fa fa-angle-down"></b>
-			</a>
 
-			<b class="arrow"></b>
-
-			<ul class="submenu">
-				<li class="">
-					<a href="#">
-						<i class="menu-icon fa fa-caret-right"></i>
-						add Product
-					</a>
-
-					<b class="arrow"></b>
-				</li>
-
-				<li class="">
-					<a href="#">
-						<i class="menu-icon fa fa-caret-right"></i>
-						Product View
-					</a>
-
-					<b class="arrow"></b>
-				</li>
+                            <div class="dropdown">
+                                <a href=" " class="dropbtn">Dropdown
+                                <i class="icon-line-chevron-down"></i> 
+                                </a>
+                                <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                                </div>
+          
 
 
 
 
 
 
-
-			</ul>
 		</li>
                             <li><a href="#contact">Contact Us</a> </li>
                         
@@ -167,7 +148,7 @@
 </section>
 
 <!-- --------------------Copyrights end -->
-<button id="top-btn"><i class="icon-arrow-up"></i></button>
+<a class="top-btn btn-info btn " href="#top"><i class="icon-arrow-up"></i></a>
 
 <script type="text/javascript" src="{{asset('js/script.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>

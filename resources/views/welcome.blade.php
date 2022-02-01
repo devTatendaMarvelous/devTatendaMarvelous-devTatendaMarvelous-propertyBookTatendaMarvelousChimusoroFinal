@@ -495,8 +495,8 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6">
-<h1>map</h1>
+                <div class="col-md-6 map">
+                    <img src="" class="col-md-8"alt="">
                 </div>
 
                 <div class="col-md-6">
