@@ -1,0 +1,300 @@
+body {
+	margin: 0;
+    padding: 0;
+    
+}
+header{
+    margin-top: -20px;
+    background-color: #fff;
+   
+}
+
+header h1 {
+	margin: 0;
+	font-weight: normal;
+    font-size: 24px;
+}
+
+/*---------------------site navigation------------------------ */
+.nav-links {
+	margin-top: 20px;
+}
+.logo{
+    
+    list-style: none;
+   
+}
+.logo a{
+    margin-bottom: -10px;
+    color: #0d3895;
+    font-size: 3rem;
+}
+.nav-links ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-links li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+
+.nav-links a {
+	display: block;
+	color: #0d3895;
+	
+	text-decoration: none;
+	padding: 10px 20px;
+	border-bottom: none;
+}
+
+.nav-links a:hover{
+	background-color: #54cef8;
+}
+/* ---------------nav end----------------- */
+
+
+/* ---------------home------------- */
+.home{
+    color: #fff;
+    background-color: #0d3895;
+  border-radius: 0 0 50% 50%;
+}
+.home-left{
+    padding: 2%;
+    
+}
+.img-left{
+    float: left ;
+    height: 80%;
+    width: 80%;
+}
+.home-right img{
+    float: right ;
+    height: 70%;
+    
+}
+.btn-oval{
+    color: #fff;
+    padding: .3rem;
+    width: 20%;
+    border-radius: 1rem;
+}
+.btn-services{
+    border: 3px solid #fff;
+}
+
+/* ---------------home end-------------- */
+/* ------------------about------------------- */
+.title{
+    margin-left: 40%;
+}
+
+.service-icon{
+    color: #0d3895;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #0d3895 ;
+    border-radius: 50%;
+    float: left;
+}
+.service-img{
+    height: 70%;
+    width: 70%;
+}
+
+/* --------------- aboutend--------------- */
+
+
+/* ---------------Services--------------- */
+.service{
+    background-color: #ecf4ff;
+    padding: 4rem 0 4rem 0;
+}
+
+/* ---------------Services End------------- */
+
+/* ----------Why Choose Us----------------- */
+.why-choose{
+    color: #fff;
+    background-color: #0d3895;
+  padding: 4rem 0 4rem 0;
+}
+.choose{
+    background-color: #004590;
+    border: none;
+}
+.choose-icon{
+    font-size: 3.4rem;
+}
+
+/* -------------Why Choose us end------------ */
+
+/* ----------------------Portfolio------------- */
+#portfolio{
+    
+    padding: 4rem 0 4rem 0;
+}
+.portfolio-links {
+	margin-top: 20px;
+}
+
+.portfolio-links ul {
+	margin: 0;
+	padding: 0;
+}
+
+.portfolio-links li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+
+
+.portfolio-links a {
+	display: block;
+	color: #007aff;
+	
+	text-decoration: none;
+	padding: 10px 20px;
+	border-bottom: none;
+}
+.active a{
+    
+    color: #fff;
+    padding: .7rem;
+  widows: 1.4rem;
+    border-radius: 1rem;
+    background-color: #007aff;
+    
+}
+
+.portfolio-images{
+ 
+}
+
+/* --------------------------Portfolio------------ */
+
+
+/* ---------------Testimonials--------------- */
+#testimonials{
+    
+    padding: 4rem 0 4rem 0;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+/* --------------Testimonials End */
+
+.carousel-text{
+    color: #000;
+}
+
+/* -----------------Team------------ */
+#team{
+    
+    padding: 4rem 0 4rem 0;
+}
+
+.team-image{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+/* -----------------Team End----------------- */
+#clients{
+    
+    padding: 4rem 0 4rem 0;
+}
+
+
+/* ------------footer---------- */
+.footer-links{
+    color: #fff;
+    margin: 0;
+	padding: 0;
+}
+.footer-links li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+.footer-links a {
+	
+	color:#fff;
+	
+	text-decoration: none;
+    
+	border-bottom: none;
+}
+.contact-icons{
+    color:#004289 ;
+    font-size: 1.4rem;
+}
+.social-media li{
+    list-style: none;
+    float: left;
+    
+    margin-right: 5px;
+    
+}
+
+.social-media a {
+display: block;
+color: #fff;
+height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #007aff;
+text-decoration: none;
+
+
+}
+.social-media a:hover {
+    display: block;
+    color: #007aff;
+    height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+    text-decoration: none;
+    
+    
+    }
+
+.social-media a i{
+    margin-top: 4px;
+}
+.news-letter{
+    margin-right: -2%;
+}
+/* -----------------------footer end */
+/* --------------Copyrights------------- */
+.copy{
+    color: #fff;
+    background-color: #004289;
+}
+/* -------------Cpoyrights end--------------- */
+
+#top-btn{
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    font-size:22px;
+    width:50px;
+    height:50px;
+    border:none;
+    cursor:pointer;
+}
